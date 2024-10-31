@@ -4,57 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Website</title>
-    <style>
-        body {
-            display: flex;
-            font-family: Arial, sans-serif;
-        }
-        .sidebar {
-            width: 200px;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-        .main-content {
-            flex-grow: 1;
-            padding: 20px;
-        }
-        .banner {
-            text-align: center;
-            padding: 20px;
-            background-color: #333;
-            color: white;
-        }
-        .sidebar a {
-            display: block;
-            margin: 10px 0;
-            color: #333;
-            text-decoration: none;
-        }
-        .sidebar a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="banner">
         <h1>Your Name</h1>
     </div>
-    <div class="sidebar">
-        <h2>Links</h2>
-        <a href="mailto:your-email@example.com">Email</a>
-        <a href="path/to/your-cv.pdf" target="_blank">CV</a>
-        <a href="https://github.com/your-github" target="_blank">GitHub</a>
-        <a href="https://twitter.com/your-twitter" target="_blank">Twitter</a>
-    </div>
-    <div class="main-content">
-        <h2>Bio</h2>
-        <p>Your bio goes here...</p>
-        <h2>Publications</h2>
-        <ul>
-            <li>Publication 1</li>
-            <li>Publication 2</li>
-            <li>Publication 3</li>
-        </ul>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Links</h2>
+            <a href="mailto:your-email@example.com">Email</a>
+            <a href="path/to/your-cv.pdf" target="_blank">CV</a>
+            <a href="https://github.com/your-github" target="_blank">GitHub</a>
+            <a href="https://twitter.com/your-twitter" target="_blank">Twitter</a>
+        </div>
+        <div class="main-content">
+            <h2>Bio</h2>
+            <p>Your bio goes here...</p>
+            <h2>Publications</h2>
+            <ul>
+                <li>Publication 1</li>
+                <li>Publication 2</li>
+                <li>Publication 3</li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
