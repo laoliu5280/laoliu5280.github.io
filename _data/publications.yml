@@ -1,10 +1,39 @@
 featured:
-- {name: 'Testing General Relativity with Present and Future Astrophysical Observations. Emanuele Berti (Mississippi U. and Lisbon, CENTRA), Enrico Barausse (Paris, Inst. Astrophys. and Paris U., VI-VII), Vitor Cardoso (Lisbon, IST and Perimeter Inst. Theor. Phys. and Lisbon, CENTRA), Leonardo Gualtieri (Rome U. and INFN, Rome), Paolo Pani (Rome U. and INFN, Rome and Lisbon, IST and Lisbon, CENTRA) et al.', url: '/publications/1501.07274.pdf'}
-- {name: 'Shock interactions, turbulence and the origin of the stellar mass spectrum. Ralph E. Pudritz and N. K.-R. Kevlahan', url: 'http://ms.mcmaster.ca/kevla/pdf/articles/PhilTransRSoc_2013.pdf'}
-- {name: 'Low shear diffusion central schemes for particle methods. Jonathan Panuelos, James Wadsley, Nicholas Kevlahan', url: 'http://ms.mcmaster.ca/kevla/pdf/articles/jcp_v414.pdf'}
+- {name: 'Literature Meets Data: A Synergistic Approach to Hypothesis Generation', 
+   url: 'https://arxiv.org/abs/2410.17309',
+   venue: "preprint",
+   year: '2024',
+   authors: 'Haokun Liu, Yangqiaoyu Zhou, Mingxuan Li, Chenfei Yuan, and Chenhao Tan'
+}
+- {name: 'Hypothesis Generation with Large Language Models', 
+   url: 'https://arxiv.org/abs/2404.04326',
+   venue: "EMNLP workshop on NLP for Science",
+   year: '2024',
+   authors: 'Yangqiaoyu Zhou, Haokun Liu, Tejes Srivastava, Hongyuan Mei, and Chenhao Tan'
+}
+- {name: 'Beyond ensemble averages: Leveraging climate model ensembles for subseasonal forecasting', 
+   url: 'https://journals.ametsoc.org/view/journals/aies/3/4/AIES-D-23-0103.1.xml',
+   venue: "Artificial Intelligence for the Earth Systems, 3(4), e230103",
+   year: '2024',
+   authors: 'Elena Orlova, Haokun Liu, Raphael Rossellini, Benjamin A Cash, and Rebecca Willett'
+}
 
 index:
-- {name: 'Testing General Relativity with Present and Future Astrophysical Observations. Emanuele Berti (Mississippi U. and Lisbon, CENTRA), Enrico Barausse (Paris, Inst. Astrophys. and Paris U., VI-VII), Vitor Cardoso (Lisbon, IST and Perimeter Inst. Theor. Phys. and Lisbon, CENTRA), Leonardo Gualtieri (Rome U. and INFN, Rome), Paolo Pani (Rome U. and INFN, Rome and Lisbon, IST and Lisbon, CENTRA) et al.', url: '/publications/1501.07274.pdf'}
-- {name: 'Shock interactions, turbulence and the origin of the stellar mass spectrum. Ralph E. Pudritz and N. K.-R. Kevlahan', url: 'http://ms.mcmaster.ca/kevla/pdf/articles/PhilTransRSoc_2013.pdf'}
-- {name: 'Low shear diffusion central schemes for particle methods. Jonathan Panuelos, James Wadsley, Nicholas Kevlahan', url: 'http://ms.mcmaster.ca/kevla/pdf/articles/jcp_v414.pdf'}
-- {name: 'Numerical solutions of thin film equations for polymer flows. Thomas. Salez, Joshua D. McGraw, Sara Cormier, Oliver Bäumchen, Kari Dalnoki-Veress, and Elie Raphaël', url: 'https://static1.squarespace.com/static/5684891d7086d74497aeb71f/t/56ec510d2fe1319543ab6d6f/1458327821946/10.1140-epje-i2012-12114-x.pdf'}
+- {name: 'Literature Meets Data: A Synergistic Approach to Hypothesis Generation', 
+   url: 'https://arxiv.org/abs/2410.17309',
+   venue: "preprint",
+   year: '2024',
+   authors: 'Haokun Liu, Yangqiaoyu Zhou, Mingxuan Li, Chenfei Yuan, and Chenhao Tan'
+}
+- {name: 'Hypothesis Generation with Large Language Models', 
+   url: 'https://arxiv.org/abs/2404.04326',
+   venue: "EMNLP workshop on NLP for Science",
+   year: '2024',
+   authors: 'Yangqiaoyu Zhou, Haokun Liu, Tejes Srivastava, Hongyuan Mei, and Chenhao Tan'
+}
+- {name: 'Beyond ensemble averages: Leveraging climate model ensembles for subseasonal forecasting', 
+   url: 'https://journals.ametsoc.org/view/journals/aies/3/4/AIES-D-23-0103.1.xml',
+   venue: "Artificial Intelligence for the Earth Systems, 3(4), e230103",
+   year: '2024',
+   authors: 'Elena Orlova, Haokun Liu, Raphael Rossellini, Benjamin A Cash, and Rebecca Willett'
+}
