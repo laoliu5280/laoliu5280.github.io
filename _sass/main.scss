@@ -1,7 +1,7 @@
 $backgroundColor: #ffffff;
 $bodyColor: #000000;
 $bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-$linkColor: #212529 !important;
+$linkColor: hsl(210, 100%, 50%) !important;
 
 body {
   background: $backgroundColor;
