@@ -1,3 +1,19 @@
 url: "https://laoliu5280.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "刘昊琨 Haokun Liu" # the name of your site, e.g. ACME Corp.
+
+plugins:
+  - jekyll-seo-tag
+
+# Optional: Additional SEO settings
+description: "Haokun Liu's personal website"
+# affiliation: "Ph.D. student at the University of Chicago"
+# field: "Computer Science, Natural Language Processing, Hypothesis Generation"
+# keywords: "Haokun Liu, 刘昊琨, University of Chicago, Computer Science, NLP, Hypothesis Generation"
+author:
+  name: "刘昊琨 Haokun Liu"
+social:
+  name: Haokun Liu
+  links:
+    - https://x.com/HaokunLiu5280
+    - https://bsky.app/profile/haokunliu.bsky.social
