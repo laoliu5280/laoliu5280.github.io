@@ -7,9 +7,6 @@ plugins:
 
 # Optional: Additional SEO settings
 description: "Haokun Liu's personal website"
-# affiliation: "Ph.D. student at the University of Chicago"
-# field: "Computer Science, Natural Language Processing, Hypothesis Generation"
-# keywords: "Haokun Liu, 刘昊琨, University of Chicago, Computer Science, NLP, Hypothesis Generation"
 author:
   name: "刘昊琨 Haokun Liu"
 social:
