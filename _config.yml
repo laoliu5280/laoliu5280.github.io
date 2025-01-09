@@ -1,14 +1,14 @@
-url: "https://haokunliu.com/" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-title: "刘昊琨 Haokun Liu" # the name of your site, e.g. ACME Corp.
+url: "https://haokunliu.com/" 
+baseurl: "" 
+title: "刘昊琨 Haokun Liu" 
 sass:
   sass_dir: _sass
 
 plugins:
   - jekyll-seo-tag
 
-# Optional: Additional SEO settings
-description: "Haokun Liu's personal website"
+
+description: "Haokun Liu's Homepage"
 author:
   name: "刘昊琨 Haokun Liu"
 social:
