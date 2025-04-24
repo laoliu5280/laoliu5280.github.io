@@ -25,6 +25,12 @@ featured:
 }
 
 index:
+- {name: 'HypoBench: Towards Systematic and Principled Benchmarking for Hypothesis Generation', 
+   url: 'https://arxiv.org/abs/2504.11524',
+   venue: "preprint",
+   year: '2025',
+   authors: 'Haokun Liu, Sicong Huang, Jingyu Hu, Yangqiaoyu Zhou, and Chenhao Tan'
+}
 - {name: 'Literature Meets Data: A Synergistic Approach to Hypothesis Generation', 
    url: 'https://arxiv.org/abs/2410.17309',
    venue: "preprint",
