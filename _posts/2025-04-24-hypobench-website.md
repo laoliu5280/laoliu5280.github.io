@@ -1,4 +1,5 @@
 ---
 layout: post
-title: "Checkout the [first principled benchmark on hypothesis generation](https://chicagohai.github.io/HypoBench/)! Paper available at: [HypoBench: Towards Systematic and Principled Benchmarking for Hypothesis Generation](https://arxiv.org/abs/2504.11524)."
+title: "Checkout the first principled benchmark on hypothesis generation! HypoBench: Towards Systematic and Principled Benchmarking for Hypothesis Generation"
+link: "https://chicagohai.github.io/HypoBench/"
 ---
