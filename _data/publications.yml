@@ -7,8 +7,8 @@ featured:
 }
 - {name: 'Literature Meets Data: A Synergistic Approach to Hypothesis Generation', 
    url: 'https://arxiv.org/abs/2410.17309',
-   venue: "preprint",
-   year: '2024',
+   venue: "ACL",
+   year: '2025',
    authors: 'Haokun Liu, Yangqiaoyu Zhou, Mingxuan Li, Chenfei Yuan, and Chenhao Tan'
 }
 - {name: 'Hypothesis Generation with Large Language Models', 
@@ -33,8 +33,8 @@ index:
 }
 - {name: 'Literature Meets Data: A Synergistic Approach to Hypothesis Generation', 
    url: 'https://arxiv.org/abs/2410.17309',
-   venue: "preprint",
-   year: '2024',
+   venue: "ACL",
+   year: '2025',
    authors: 'Haokun Liu, Yangqiaoyu Zhou, Mingxuan Li, Chenfei Yuan, and Chenhao Tan'
 }
 - {name: 'Hypothesis Generation with Large Language Models', 
