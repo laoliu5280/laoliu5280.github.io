@@ -2,24 +2,43 @@
 layout: default
 ---
 
-<div class="row g-5 mb-5">
-  <div class="col-md-6">
-    <h3 class="fw-bold">About me</h3>
-    {{ content }}
+<!-- Hero Section -->
+<section class="hero animate-in">
+  <div class="hero-content">
+    <p class="hero-greeting">Hello, I'm</p>
+    <h1 class="hero-name">Haokun Liu</h1>
+    <div class="hero-bio about-text">
+      {{ content }}
+    </div>
+    <div class="social-links">
+      {% for item in site.data.settings.social %}
+        {% if item.icon == 'email' %}
+          <a href="{{ item.link }}" class="social-link" title="Email"><i class="fas fa-envelope"></i></a>
+        {% else %}
+          <a href="{{ item.link }}" class="social-link" title="{{ item.icon | capitalize }}" target="_blank" rel="noopener"><i class="fab fa-{{ item.icon }}"></i></a>
+        {% endif %}
+      {% endfor %}
+    </div>
   </div>
-  <div class="col-md-6 text-end">
-    <img src="{{ site.github.url }}/assets/img/Liu5.jpeg" alt="Home" width="50%" class="img-fluid">
+  <div class="hero-image-wrapper">
+    <img src="{{ site.github.url }}/assets/img/Liu5.jpeg" alt="Haokun Liu" class="hero-image">
   </div>
-</div>
+</section>
 
-
+<!-- Publications Section -->
 {% include publications.html %}
 
-<div class="row g-5 mb-5">
-  <div class="col-md-12">
-    <h3 class="fw-bold border-bottom pb-3 mb-5">Updates</h3>
+<!-- Updates Section -->
+<section class="updates-section fade-in-section">
+  <h3 class="section-title">Updates</h3>
+  <div class="updates-list">
     {% for post in site.posts %}
-      <p>{{ post.date | date: "%B %-d, %Y" }}: {{ post.title }} - Available at: <a href="{{ post.link }}" class="post-link">{{ post.link }}</a></p>
+    <div class="update-item">
+      <span class="update-date">{{ post.date | date: "%b %Y" }}</span>
+      <div class="update-content">
+        {{ post.title }}{% if post.link %} - <a href="{{ post.link }}" target="_blank" rel="noopener">Read more</a>{% endif %}
+      </div>
+    </div>
     {% endfor %}
   </div>
-</div>
+</section>
