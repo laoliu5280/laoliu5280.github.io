@@ -4,11 +4,11 @@ menu:
 - {name: 'contact', url: '/contact'}
 
 social:
-- {icon: 'github', link: 'https://github.com/laoliu5280'}
-- {icon: 'twitter', link: 'https://x.com/HaokunLiu5280'}
-- {icon: 'email', link: 'mailto:haokunliu@uchicago.edu'}
-# - {icon: 'instagram', link: 'https://instagram.com/paululele'}
-# - {icon: 'linkedin', link: 'https://linkedin.com/in/lenpaul'}
+- {icon: 'github', title: 'GitHub', link: 'https://github.com/laoliu5280'}
+- {icon: 'google-scholar', title: 'Google Scholar', link: 'https://scholar.google.com/citations?user=XZaIFNwAAAAJ&hl=en'}
+- {icon: 'linkedin', title: 'LinkedIn', link: 'https://www.linkedin.com/in/haokun-liu-78a2b212b/'}
+- {icon: 'x', title: 'X', link: 'https://x.com/HaokunLiu5280'}
+- {icon: 'email', title: 'Email', link: 'mailto:haokunliu@uchicago.edu'}
 
 contacts:
-- {name: 'Mr. Haokun Liu', title: 'Ph.D. Student', department: 'Computer Science', institution: 'University of Chicago', institution_address: '5735 S Ellis Ave', email: 'haokunliu@uchicago.edu', office: 'Searle 207'}
+- {name: 'Mr. Haokun Liu', title: 'Ph.D.', department: 'Computer Science', institution: 'University of Chicago', email: 'haokunliu@uchicago.edu', scholar: 'https://scholar.google.com/citations?user=XZaIFNwAAAAJ&hl=en', linkedin: 'https://www.linkedin.com/in/haokun-liu-78a2b212b/'}

@@ -1,0 +1,5 @@
+{%- if include.icon == 'email' -%}<i class="fas fa-envelope"></i>
+{%- elsif include.icon == 'x' -%}<svg class="svg-inline--fa" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M389.2 48h70.6L305.6 224.2 487 288V464H414.6L293.1 300.6 154.1 464H83.4l165-188.6L26 48h73.8l109.4 144.7L389.2 48zm-24.8 373.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+{%- elsif include.icon == 'google-scholar' -%}<svg class="svg-inline--fa" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M256 411.12L0 202.667 256 0l256 202.667zM256 462.76c-73.31 0-135.65-31.64-162.9-80.48-2.03-3.63-3.1-7.72-3.1-11.88v-77.8l166 132.09 166-132.09v77.8c0 4.16-1.07 8.25-3.1 11.88-27.25 48.84-89.59 80.48-162.9 80.48z"/></svg>
+{%- else -%}<i class="fab fa-{{ include.icon }}"></i>
+{%- endif -%}

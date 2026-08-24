@@ -1,49 +1,73 @@
 featured:
-- {name: 'HypoBench: Towards Systematic and Principled Benchmarking for Hypothesis Generation', 
-   url: 'https://arxiv.org/abs/2504.11524',
+- {name: 'The Mirage of Autonomous AI Scientists',
+   url: 'https://chenhaot.com/papers/mirage_ai_scientist.pdf',
    venue: "preprint",
-   year: '2025',
-   authors: 'Haokun Liu, Sicong Huang, Jingyu Hu, Yangqiaoyu Zhou, and Chenhao Tan'
+   year: '2026',
+   authors: 'Chenhao Tan and Haokun Liu'
 }
-- {name: 'Literature Meets Data: A Synergistic Approach to Hypothesis Generation', 
-   url: 'https://arxiv.org/abs/2410.17309',
-   venue: "ACL",
-   year: '2025',
-   authors: 'Haokun Liu, Yangqiaoyu Zhou, Mingxuan Li, Chenfei Yuan, and Chenhao Tan'
+- {name: 'AI-Assisted Reviewing is Necessary for Avoiding the Review Death Spiral',
+   url: 'https://openaireview.org/assets/review-death-spiral.pdf',
+   venue: "preprint",
+   year: '2026',
+   authors: 'Haokun Liu and Chenhao Tan'
 }
-- {name: 'Hypothesis Generation with Large Language Models', 
-   url: 'https://arxiv.org/abs/2404.04326',
-   venue: "EMNLP workshop on NLP for Science",
-   year: '2024',
-   authors: 'Yangqiaoyu Zhou, Haokun Liu, Tejes Srivastava, Hongyuan Mei, and Chenhao Tan'
-}
-- {name: 'Beyond ensemble averages: Leveraging climate model ensembles for subseasonal forecasting', 
-   url: 'https://journals.ametsoc.org/view/journals/aies/3/4/AIES-D-23-0103.1.xml',
-   venue: "Artificial Intelligence for the Earth Systems, 3(4), e230103",
-   year: '2024',
-   authors: 'Elena Orlova, Haokun Liu, Raphael Rossellini, Benjamin A Cash, and Rebecca Willett'
+- {name: 'VERITAS: Towards a General-Purpose Replication Tool for Scientific Research',
+   url: 'https://arxiv.org/abs/2607.02931',
+   venue: "preprint",
+   year: '2026',
+   authors: 'Haokun Liu, Filbert Aurelian Tjiaranata, and Chenhao Tan'
 }
 
 index:
-- {name: 'HypoBench: Towards Systematic and Principled Benchmarking for Hypothesis Generation', 
+- {name: 'VERITAS: Towards a General-Purpose Replication Tool for Scientific Research',
+   url: 'https://arxiv.org/abs/2607.02931',
+   venue: "preprint",
+   year: '2026',
+   authors: 'Haokun Liu, Filbert Aurelian Tjiaranata, and Chenhao Tan'
+}
+- {name: 'AI-Assisted Reviewing is Necessary for Avoiding the Review Death Spiral',
+   url: 'https://openaireview.org/assets/review-death-spiral.pdf',
+   venue: "preprint",
+   year: '2026',
+   authors: 'Haokun Liu and Chenhao Tan'
+}
+- {name: 'The Mirage of Autonomous AI Scientists',
+   url: 'https://chenhaot.com/papers/mirage_ai_scientist.pdf',
+   venue: "preprint",
+   year: '2026',
+   authors: 'Chenhao Tan and Haokun Liu'
+}
+- {name: 'NeuriCo: Towards Reliable AI Scientists',
+   url: 'https://github.com/ChicagoHAI/NeuriCo/',
+   venue: "ICML 2026 AI for Science Workshop",
+   year: '2026',
+   authors: 'Haokun Liu and Chenhao Tan'
+}
+- {name: 'The Interaction Tax: When Communication Erases Diversity in Multi-Agent Teams',
+   url: 'https://openreview.net/forum?id=VUdf5ZzGy4',
+   venue: "ICML 2026 Workshop: AI as a Tool for Mathematics, Computer Science",
+   year: '2026',
+   authors: 'Summer Ann, Haokun Liu, and Chenhao Tan'
+}
+- {name: 'HypoBench: Towards Systematic and Principled Benchmarking for Hypothesis Generation',
    url: 'https://arxiv.org/abs/2504.11524',
    venue: "preprint",
    year: '2025',
    authors: 'Haokun Liu, Sicong Huang, Jingyu Hu, Yangqiaoyu Zhou, and Chenhao Tan'
 }
-- {name: 'Literature Meets Data: A Synergistic Approach to Hypothesis Generation', 
+- {name: 'Literature Meets Data: A Synergistic Approach to Hypothesis Generation',
    url: 'https://arxiv.org/abs/2410.17309',
    venue: "ACL",
    year: '2025',
    authors: 'Haokun Liu, Yangqiaoyu Zhou, Mingxuan Li, Chenfei Yuan, and Chenhao Tan'
 }
-- {name: 'Hypothesis Generation with Large Language Models', 
+- {name: 'Hypothesis Generation with Large Language Models',
    url: 'https://arxiv.org/abs/2404.04326',
    venue: "EMNLP workshop on NLP for Science",
    year: '2024',
    authors: 'Yangqiaoyu Zhou, Haokun Liu, Tejes Srivastava, Hongyuan Mei, and Chenhao Tan'
 }
-- {name: 'Beyond ensemble averages: Leveraging climate model ensembles for subseasonal forecasting', 
+- {name: 'Beyond ensemble averages: Leveraging climate model ensembles for subseasonal forecasting',
    url: 'https://journals.ametsoc.org/view/journals/aies/3/4/AIES-D-23-0103.1.xml',
    venue: "Artificial Intelligence for the Earth Systems, 3(4), e230103",
    year: '2024',

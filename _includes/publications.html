@@ -1,5 +1,5 @@
 <section class="publications-section fade-in-section">
-  <h3 class="section-title">Publications</h3>
+  <h3 class="section-title">{% if page.title == "Home" %}Selected Publications{% else %}Publications{% endif %}</h3>
   <div class="publication-list">
     {% if page.title == "Home" %}
       {% for item in site.data.publications.featured %}
@@ -7,7 +7,7 @@
         <div class="publication-year">{{ item.year }}</div>
         <div class="publication-content">
           <h4 class="publication-title">
-            <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.name }}</a>
+            {% if item.url and item.url != "" %}<a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}
           </h4>
           <p class="publication-authors">{{ item.authors }}</p>
           <span class="publication-venue">{{ item.venue }}</span>
@@ -20,7 +20,7 @@
         <div class="publication-year">{{ item.year }}</div>
         <div class="publication-content">
           <h4 class="publication-title">
-            <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.name }}</a>
+            {% if item.url and item.url != "" %}<a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}
           </h4>
           <p class="publication-authors">{{ item.authors }}</p>
           <span class="publication-venue">{{ item.venue }}</span>

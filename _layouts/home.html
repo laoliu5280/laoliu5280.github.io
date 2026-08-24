@@ -12,12 +12,8 @@ layout: default
     </div>
     <div class="social-links">
       {% for item in site.data.settings.social %}
-        {% if item.icon == 'email' %}
-          <a href="{{ item.link }}" class="social-link" title="Email"><i class="fas fa-envelope"></i></a>
-        {% else %}
-          <a href="{{ item.link }}" class="social-link" title="{{ item.icon | capitalize }}" target="_blank" rel="noopener"><i class="fab fa-{{ item.icon }}"></i></a>
-        {% endif %}
-      {% endfor %}
+      <a href="{{ item.link }}" class="social-link" title="{{ item.title }}"{% unless item.icon == 'email' %} target="_blank" rel="noopener"{% endunless %}>{% include social-icon.html icon=item.icon %}</a>
+    {% endfor %}
     </div>
   </div>
   <div class="hero-image-wrapper">

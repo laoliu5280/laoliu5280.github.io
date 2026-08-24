@@ -1,11 +1,7 @@
 <footer class="site-footer">
   <div class="footer-social">
     {% for item in site.data.settings.social %}
-      {% if item.icon == 'email' %}
-        <a href="{{ item.link }}" class="footer-social-link" title="Email"><i class="fas fa-envelope"></i></a>
-      {% else %}
-        <a href="{{ item.link }}" class="footer-social-link" title="{{ item.icon | capitalize }}" target="_blank" rel="noopener"><i class="fab fa-{{ item.icon }}"></i></a>
-      {% endif %}
+      <a href="{{ item.link }}" class="footer-social-link" title="{{ item.title }}"{% unless item.icon == 'email' %} target="_blank" rel="noopener"{% endunless %}>{% include social-icon.html icon=item.icon %}</a>
     {% endfor %}
   </div>
   <p class="footer-text">&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</p>
