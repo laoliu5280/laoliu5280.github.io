@@ -2,7 +2,7 @@
   <h3 class="section-title">{% if page.title == "Home" %}Selected Publications{% else %}Publications{% endif %}</h3>
   <div class="publication-list">
     {% if page.title == "Home" %}
-      {% for item in site.data.publications.featured %}
+      {% for item in site.data.publications.index %}
       <article class="publication-card">
         <div class="publication-year">{{ item.year }}</div>
         <div class="publication-content">
